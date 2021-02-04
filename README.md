@@ -1,0 +1,2 @@
+# Space-efficient-Top-k-completion
+Virtually, every modern search application features some kind of query  auto completion. In its basic form, the problem consists in retrieving from  a string set a small number of completions i.e. string beginning with the  given prefix, that have the highest scores, according to some static  rankings.        Here I focus on the case where the string set is so large that compression  is needed to fit the data structure in memory.   Here intent is to use a Trie based data structure to address this problem.  
